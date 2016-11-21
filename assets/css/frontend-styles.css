@@ -1,0 +1,112 @@
+#wptv-subtitle .transcript:hover {background: #f4f9af none repeat scroll 0 0; color: #000; cursor: pointer;}
+#wptv-subtitle .transcript.current{background: #f4f9af none repeat scroll 0 0;}
+.row.transcript-items p br{clear:both;display:block;font-size:43px;}
+.row.transcript-items{max-height: 300px; margin-bottom: 30px; overflow-y: auto;}
+#overlay{ position: fixed; background: #fff; opacity: 0.7; top: 0; width: 100%; height: 100%; left: 0;visibility:hidden;z-index: 123;}
+#loading{position: fixed; z-index: 124; top: 30%; left: 45%;}
+.wptv-course{float:left;margin-right:0;width:63%;}
+.mejs-video{width:100%!important;}
+.mejs-mediaelement video{max-width:768px;margin:0 auto;}
+.tab-container{margin:77px 0 30px;}
+.wptv-content,.wptv-content *{color: #282828; font: 300 18px Roboto Slab;}
+.wptv-content a{color:#00a8e1;font: normal 28px Roboto Slab;}
+.wptv-content a:hover{text-decoration:underline;}
+.download-items li a{font-size:18px;}
+
+/* Sidebar */
+#wptv-sidebar{float:right;width:34%;}
+#wptv-sidebar .related-videos h3{ color:#230225;font-family: oswald;font-size: 35px; font-weight: 700;line-height: 1;margin: 0 0 40px;text-transform:uppercase;}
+.related-videos-list{margin:0;padding:0;}
+.related-videos-list li{margin-bottom:12px;}
+.related-videos-list li p.video-name a{color:#272727;font-family: Roboto Slab;font-size:18px;font-weight:400;}
+.related-videos-list li p.video-name a:hover{color:#00a8e1;}
+.related-videos-list li p.video-name{line-height: 1;margin-top:12px;margin-bottom: 6px;}
+.related-videos-list li p.video-info,.related-videos-list li p.video-info span,.related-videos-list li p.video-info a span{color:#a7a7a7;font-family: Roboto Slab;font-size:14px;font-weight:300;}
+.related-videos-list li p.video-info a:hover span{color:#00a8e1;}
+.video-duration{margin-right:5px;}
+.related-videos-list li p.video-info a{margin-left:5px;}
+#wptv-course .ui-widget.ui-widget-content{border:0;margin:0;padding:0;}
+#wptv-course .ui-widget.ui-widget-content .ui-tabs-nav{background:0;border: 0;border-radius:0;margin:0;padding:0;}
+#wptv-course #wptv_tabs.ui-widget.ui-widget-content .ui-tabs-nav{background:#f5f5f5;border:1px solid #ebebeb;border-bottom: 0;border-radius:0;margin:0;padding:0;}
+#wptv-course .ui-widget.ui-widget-content .ui-tabs-nav  li{background:#f5f5f5;border: 1px solid #ebebeb;border-radius:0;display:inline-block;margin:0;padding:10px 40px 11px;text-align:center;}
+#wptv-course #wptv-sidebar .ui-widget.ui-widget-content .ui-tabs-nav  li{padding:10px 10px 11px;}
+#wptv-course #wptv_tabs.ui-widget.ui-widget-content .ui-tabs-nav  li{background:0;border:0;border-right: 1px solid #ebebeb;}
+#wptv-course #wptv_tabs.ui-widget.ui-widget-content .ui-tabs-nav  li:last-child{border-right:0;}
+#wptv-course .ui-widget.ui-widget-content .ui-tabs-nav  li a{color:#282828;display:block;font-family:Oswald;font-size:28px;font-weight:bold;padding:0;text-align:center;text-transform:uppercase;width: 100%;}
+#wptv-course .ui-widget.ui-widget-content .ui-tabs-nav  li.ui-tabs-active,#wptv-course #wptv_tabs.ui-widget.ui-widget-content .ui-tabs-nav  li.ui-tabs-active{background:#00a8e1;border-color:#00a8e1;}
+#wptv-course .ui-widget.ui-widget-content .ui-tabs-nav  li.ui-tabs-active a,#wptv-course #wptv-sidebar .ui-widget.ui-widget-content .ui-tabs-nav  li.ui-tabs-active a{color:#FFF;}
+#wptv-course  #wptv-sidebar .ui-widget.ui-widget-content .ui-tabs-nav  li{width:50%;}
+#wptv-course  #wptv-sidebar .ui-widget.ui-widget-content .ui-tabs-nav  li a{color:#230225;}
+#wptv-course  .ui-widget.ui-widget-content .ui-tabs-panel{border: 1px solid #ebebeb;padding: 31px 30px;}
+#wptv-course  #wptv-sidebar .ui-widget.ui-widget-content.wptv-presentation{margin:28px 0 69px;}
+#wptv-sidebar .ui-accordion *{border:0;border-radius:0;color:#2d2d2d;font-family: roboto slab;font-size: 20px;font-weight: normal;line-height:1.1;margin:0;}
+#wptv-sidebar .ui-accordion i{color:#939393;font:normal normal normal 14px/1 FontAwesome;position: absolute;right: 16px;top: 40%;}
+#wptv-sidebar .ui-accordion .ui-accordion-header{background-color:transparent;background-image:url(../images/header-icon.png);background-position:0 -80px;background-repeat:no-repeat;margin:0 0 21px 12px;padding:0 10px 0 44px;}
+#wptv-sidebar .ui-accordion .ui-accordion-header:focus{outline: 0!important;}
+#wptv-sidebar .ui-accordion .ui-accordion-header.ui-accordion-header-active{background-position:0 9px;margin-bottom: 0;outline: 0!important;}
+#wptv-sidebar .ui-accordion .ui-accordion-header .ui-accordion-header-icon{display:none;}
+#wptv-sidebar .ui-accordion .ui-accordion-content{background:0;border:0;padding:0;margin:0;}
+#wptv-sidebar .ui-accordion .ui-accordion-content .content-lists li{padding:10px 12px 11px; position: relative;}
+#wptv-sidebar .ui-accordion .ui-accordion-content .content-lists li a{color:#2d2d2d;font-size:18px;line-height: 1.5;}
+#wptv-sidebar .ui-accordion .ui-accordion-content .content-lists li:hover{background:#00a8e1;border-radius:0;}
+#wptv-sidebar .ui-accordion .ui-accordion-content .content-lists li:hover *{color:#fff!important;}
+#wptv-sidebar #accordion h3:first-child{font-size:24px;}
+#wptv-sidebar #accordion .content-lists{margin-top:14px;margin-bottom:35px;}
+#wptv-sidebar #accordion .content-lists *{font-size:18px;}
+#wptv-sidebar #accordion .content-lists p{width:92%;}
+#wptv-sidebar #accordion .content-lists .video-duration{color:#939393;}
+#wptv-sidebar #wptv-notebook{font: 300 18px Roboto Slab;}
+a.play-video { display: block;position: relative;}
+a.play-video img{border-radius:0;height: auto;padding:0;width: auto;}
+.video-overlay{background:#00a8e1;display:none;height:100%;left:0;opacity:0.6;position:absolute;top:0;width:100%;}
+a.play-video:hover .video-overlay{display:block;}
+a.play-video .video-overlay img{position: absolute; top: 30%;left: 40%;}
+
+/* Responsive */
+@media (max-width:1024px){
+	#wptv-course .ui-widget.ui-widget-content .ui-tabs-nav li{padding:10px 10px 11px;}
+	#wptv-course .ui-widget.ui-widget-content .ui-tabs-nav li a{font-size:23px;}
+	.single-master-series .entry{padding:0;}
+	.single-master-series .list-post-ms, .single-podcast .list-post-ms{padding:0;}
+	.single-podcast .entry.tab-containter,.single-master-series .entry.tab-containter{margin:0;}
+}
+@media (max-width:919px){	
+	#wptv-sidebar #accordion .content-lists p{width:85%;}
+	#wptv-course{padding:0 10px;}
+	#wptv-course .ui-widget.ui-widget-content .ui-tabs-panel{padding:31px 10px;}
+	
+}
+@media (max-width:767px){
+	.wptv-course{width:100%;}
+	#wptv-sidebar{width:100%;}
+	#wptv-course .ui-widget.ui-widget-content .ui-tabs-nav  li{padding:10px 0 11px;width:100%;}
+	.tab-container{margin:40px 0 30px;}
+	#wptv-course  .ui-widget.ui-widget-content .ui-tabs-panel{padding: 31px 10px;}
+	.post-marter-series{width:100%;}
+	.single-master-series .entry.tab-containter{padding: 0 0;}
+	#wptv-sidebar .ui-accordion .ui-accordion-header{padding: 0 10px 0 24px;}
+	#wptv-course .ui-widget.ui-widget-content .ui-tabs-nav  li a{padding:0 10px;text-align:left;}
+	#wptv-sidebar #accordion .content-lists{margin-bottom: 14px;}
+	#loading{left: 40%;}
+	#wptv-course  #wptv-sidebar .ui-widget.ui-widget-content .ui-tabs-nav  li a{text-align:center;}
+	#wptv-course .ui-widget.ui-widget-content .ui-tabs-nav li a{font-size:28px;}
+	#wptv-course .ui-widget.ui-widget-content .ui-tabs-panel{padding:31px 30px;}
+	#wptv-course .ui-widget.ui-widget-content .ui-tabs-nav li{padding:10px 20px 11px;}
+	#wptv-sidebar #accordion .content-lists p{width:92%;}
+	a.play-video .video-overlay img{ left: 45%;top: 40%;}
+}
+@media (max-width:568px){
+	a.play-video .video-overlay img {left: 43%;top: 38%;}
+	a.play-video .video-overlay img {top: 37%;}
+}
+@media (max-width:480px){
+	#loading{left: 35%;}
+	#wptv-course{padding:0 10px;}
+}
+@media (max-width:414px){
+	a.play-video .video-overlay img {left: 40%;top: 30%;}
+}
+@media (max-width:375px){
+	#loading{left: 30%;}
+}
+

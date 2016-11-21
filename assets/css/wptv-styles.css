@@ -1,0 +1,27 @@
+*{margin:0;padding:0;}
+.field_left {float:left;width:80%;}
+.field_right {float:left;width:20%;}
+.clear {clear:both;}
+#wptv_form {width:100%;}
+#wptv-subtitle .form_field ul li{float:left;margin-right:1%;width:65%;}
+#wptv-subtitle .form_field ul li:first-child{width:15%;}
+#wptv-subtitle .form_field ul li:last-child{margin-right:0;width:15%;}
+#wptv_form input[type=text] {height:30px;width:60%;}
+#subtitle-lists ul li input[type=text] {width:100%;}
+#wptv_form .field_row {border:1px solid #999;margin-bottom:10px;padding:10px;}
+#wptv_form label {padding:0 4px;vertical-align:top;}
+#wptv_form input[type=checkbox] {float: left;margin: 0 4px 0;}
+#subtitle-lists ul li label {width:100%;}
+.field_right.image_wrap {height: 70px;margin-bottom:12px;}
+.form_field {clear: both;margin-bottom:10px; width: 100%;}
+#wptv_form .button{margin-bottom:11px;height:30px;text-align:center;width:auto;}
+#wptv_form .quicktags-toolbar .button{display:inline-block;margin-bottom:11px;height:30px;text-align:center;width:auto;}
+.btn_add_video {float:left;height:30px;margin-bottom: 13px;width:100%;}
+#wptv_form .button.button_shortcode {margin-right: 10px;width:110px;}
+#wptv_form .button_add_video {height:30px;}
+#wptv_form .button_remove {margin-top:1px;}
+#wptv_form div.ui-widget-content.ui-tabs-panel { padding: 15px;border: 1px solid #ddd;}
+#wptv_form #wptv_tabs .category-tabs li{background:#fafafa;border:1px solid #ddd;color:#999;padding:5px 15px; }
+#wptv_form #wptv_tabs .category-tabs li.ui-tabs-active{background:#fff;border-bottom:0;padding:5px 15px 6px;}
+#wptv_form #wptv_tabs .category-tabs li a{color:#999;}
+#wptv_form .wp-person a:focus .gravatar,#wptv_form a:focus,#wptv_form a:focus .media-icon img {color: #999; -webkit-box-shadow: none; box-shadow: none;}
